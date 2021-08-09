@@ -31,7 +31,7 @@ public class ResultController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		finalScoreLabel.setText(MainController.getScore() + "");
+		finalScoreLabel.setText(MainController.getScore().toString());
 		
 	}
 

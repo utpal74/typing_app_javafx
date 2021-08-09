@@ -4,13 +4,13 @@ import java.util.Random;
 
 public class CharProducer {
 	
-	private static char[] chars = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 
+	private static Character[] chars = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 
 			'h', 'i', 'j', 'k', 'l', 'm',
 			'n', 'o', 'p', 'q', 'r', 's', 't',
 			'u', 'v', 'w', 'x', 'y', 'z'};
 	
 	public static String getRandomChar() {		
-		return chars[new Random().nextInt(chars.length -1)] + "";		
+		return chars[new Random().nextInt(chars.length -1)].toString();		
 	}
 	
 	public static int getInputSize() {

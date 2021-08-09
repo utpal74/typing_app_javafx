@@ -94,7 +94,7 @@ public class MainController implements Initializable {
 		ViewSwitcher.switchView(View.RESULT);
 	}
 
-	public static int getScore() {
+	public static Integer getScore() {
 		if (inputList.size() > inputSize) {
 			inputList.remove(inputList.size() - 1);
 		}
